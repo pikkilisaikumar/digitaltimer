@@ -1,0 +1,86 @@
+/* Write your CSS here */
+.background-details {
+  background-image: lightblue;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* linear-gradient(#ffffff, #cffcf1); */
+.containerimageone {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 300px;
+  width: 350px;
+  padding: 10px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headingtimer {
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.playiconcontainer {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.digtitaltimerheading {
+  text-align: center;
+}
+.startbtnone {
+  background-color: transparent;
+  border-width: 0px;
+}
+.buttonimageclicking {
+  background-color: transparent;
+  border-width: 0px;
+}
+.buttonOne {
+  margin-right: 10px;
+  border-width: 0px;
+  background-color: transparent;
+  font-size: 20px;
+}
+.buttonOne1 {
+  margin-left: 10px;
+  font-size: 20px;
+  border-width: 0px;
+  background-color: transparent;
+}
+
+.settimerparagraph {
+  text-align: center;
+}
+.buttoncontainers {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.playiconone {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.playiconoverallcontainerone {
+  display: flex;
+  flex-direction: row;
+}
+.overallcontainerone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.whitecontainer {
+  background-color: white;
+  height: 120px;
+  border-radius: 20px;
+  border-radius: 100px;
+  display: flex;
+  padding: 7px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
