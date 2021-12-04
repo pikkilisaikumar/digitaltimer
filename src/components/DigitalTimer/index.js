@@ -89,6 +89,7 @@ class DigitalTimer extends Component {
                       alt="play icon"
                       className="playiconone"
                     />
+                    <p> Start</p>
                   </button>
                 ) : (
                   <button
@@ -101,15 +102,7 @@ class DigitalTimer extends Component {
                       alt="pause icon"
                       className="playiconone"
                     />
-                  </button>
-                )}
-                {isTrue ? (
-                  <button type="button" className="startbtnone">
-                    Start
-                  </button>
-                ) : (
-                  <button type="button" className="startbtnone">
-                    Pause
+                    <p>Pause</p>
                   </button>
                 )}
               </div>
@@ -124,9 +117,7 @@ class DigitalTimer extends Component {
                     alt="reset icon"
                     className="playiconone"
                   />
-                </button>
-                <button type="button" className="startbtnone">
-                  Reset
+                  <p>Reset</p>
                 </button>
               </div>
             </div>
@@ -150,7 +141,9 @@ class DigitalTimer extends Component {
                   <p>-</p>
                 </button>
               )}
-              <button type="button">{minute}</button>
+              <button type="button">
+                <p>{minute}</p>
+              </button>
               {!isTrue ? (
                 <button
                   type="button"
